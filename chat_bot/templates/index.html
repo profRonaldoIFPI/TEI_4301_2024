@@ -1,0 +1,55 @@
+<!-- /templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page com Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Nossa Landing Page</h1>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>Aqui você pode adicionar informações sobre o tema escolhido pelo grupo.</p>
+        </section>
+        
+        <section id="features">
+            <h2>Características</h2>
+            <ul>
+                <li>Característica 1</li>
+                <li>Característica 2</li>
+                <li>Característica 3</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Seu Grupo. Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="chatbot-button" class="chatbot-button">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <div id="chatbot-container" class="chatbot-container">
+        <div class="chatbot-header">
+            <h3>Chatbot</h3>
+            <button id="close-chatbot">Fechar</button>
+        </div>
+        <div id="chat-messages" class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
