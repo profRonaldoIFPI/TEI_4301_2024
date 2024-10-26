@@ -27,23 +27,6 @@ Este projeto implementa um chatbot inteligente usando Flask e a API do Google Ge
    GOOGLE_API_KEY="sua_chave_api_aqui"
    ```
 
-## Estrutura do Projeto
-
-projeto/
-├── app/
-│   ├── __init__.py
-│   └── utils/
-│       └── embedding_manager.py
-├── static/
-│   ├── style.css
-│   └── script.js
-├── templates/
-│   └── index.html
-├── .env
-├── app.py
-├── knowledge_base.py
-└── requirements.txt
-
 ## Adaptando para Seu Tema
 
 1. **Edite o Conteúdo Base**
