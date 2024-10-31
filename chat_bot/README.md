@@ -10,10 +10,10 @@ Este projeto implementa um chatbot inteligente usando Flask e a API do Google Ge
 
 ## Instalação
 
-1. Clone o repositório ou baixe:
+1. Abra o powershel ou cmd e clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/profRonaldoIFPI/TEI_4301_2024.git)
-   cd seu-repositorio
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd TEI_4301_2024
    ```
    Você também pode fazer o download se preferir.
 
