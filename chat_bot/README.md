@@ -30,7 +30,7 @@ Este projeto implementa um chatbot inteligente usando Flask e a API do Google Ge
 ## Adaptando para Seu Tema
 
 1. **Edite o Conteúdo Base**
-   - Abra `knowledge_base.py`
+   - Abra `/app/utils/knowledge_base.py`
    - Substitua o texto existente com seu conteúdo
    - Mantenha a formatação markdown para melhor estrutura
    ```python
